@@ -190,5 +190,15 @@ struct Node
 
 int main()
 {
+    Node data;
+
+    data.printLinkedList();
+    data.insertEnd(1);
+    data.insertEnd(2);
+    data.insertEnd(3);
+    data.printLinkedList();
+    data.insertBeginning(5);
+    data.printLinkedList();
+
     return 0;
 }
