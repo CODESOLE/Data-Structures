@@ -201,5 +201,17 @@ struct Node
 
 int main()
 {
+    Node data;
+    data.printLinkedList();
+    data.insertBeginning(1);
+    data.insertBeginning(2);
+    data.insertBeginning(3);
+    data.insertEnd(5);
+    data.insertAfter(1, 9);
+    data.deleteEnd();
+    data.deleteBeginning();
+    data.deleteAt(0);
+    data.printLinkedList();
+
     return 0;
 }
