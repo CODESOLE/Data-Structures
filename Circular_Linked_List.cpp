@@ -1,6 +1,6 @@
 #include <iostream>
 
-//Singly Linked List
+//Circular Linked List
 
 struct Node
 {
