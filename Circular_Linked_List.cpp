@@ -197,6 +197,11 @@ struct Node
             } while (temp != head);
         }
     }
+
+    int getSize()
+    {
+        return size;
+    }
 };
 
 int main()
