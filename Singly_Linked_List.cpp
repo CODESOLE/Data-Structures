@@ -186,6 +186,11 @@ struct Node
             delete temp;
         }
     }
+
+    int getSize()
+    {
+        return size;
+    }
 };
 
 int main()
