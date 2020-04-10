@@ -168,7 +168,7 @@ struct Node
             }
         }
         else
-            std::cout << "Your entered index negative or exceed the size of the linked list!" << std::endl;
+            std::cout << "Your entered index is negative or exceed the size of the linked list!" << std::endl;
     }
 
     void deleteEnd()
