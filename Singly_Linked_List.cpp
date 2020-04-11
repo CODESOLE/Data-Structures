@@ -4,9 +4,12 @@
 
 struct Node
 {
+private:
     Node *head = NULL;
     int data;
     unsigned int size;
+
+public:
     Node *next;
     Node() : size(0) {}
 

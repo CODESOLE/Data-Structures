@@ -4,9 +4,12 @@
 
 struct Node
 {
-    Node *head = NULL;
+private:
     int data;
+    Node *head = NULL;
     unsigned int size;
+
+public:
     Node *next;
     Node() : size(0) {}
 
@@ -211,6 +214,7 @@ int main()
     data.insertBeginning(1);
     data.insertBeginning(2);
     data.insertBeginning(3);
+    data.printLinkedList();
     data.insertEnd(5);
     data.insertAfter(1, 9);
     data.deleteEnd();

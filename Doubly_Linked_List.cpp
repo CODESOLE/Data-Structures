@@ -4,10 +4,13 @@
 
 struct Node
 {
+private:
     Node *head = NULL;
-    Node *next, *prev;
     unsigned int size;
     int data;
+
+public:
+    Node *next, *prev;
     Node() : size(0)
     {
     }
