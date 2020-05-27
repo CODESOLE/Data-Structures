@@ -35,11 +35,14 @@ public:
 };
 
 int main() {
+
   _stack s1;
   s1.peek();
   s1.push(3);
   s1.peek();
   s1.push(34);
+  s1.peek();
+  s1.pop();
   s1.peek();
 
   return 0;
